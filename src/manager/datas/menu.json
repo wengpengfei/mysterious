@@ -1,0 +1,34 @@
+[
+  {
+    "name": "首页",
+    "router": {
+      "path": "/Home",
+      "params": {}
+    }
+  },
+  {
+    "name": "微服务化管理",
+    "children": [
+      {
+        "name": "脚手架",
+        "router": {
+          "path": "/Scaffolds",
+          "params": {}
+        }
+      },
+      {
+        "name": "已开发物料",
+        "router": {
+          "path": "/Modules",
+          "params": {}
+        }
+      }
+    ]
+  },
+  {
+    "name": "公告管理"
+  },
+  {
+    "name": "问题收集"
+  }
+]
