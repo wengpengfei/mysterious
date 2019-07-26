@@ -1,0 +1,43 @@
+{
+  "name": "mysterious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./build/dev.server.js",
+    "design": "webpack-dev-server --config ./build/dev.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wengpengfei/mysterious.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wengpengfei/mysterious/issues"
+  },
+  "homepage": "https://github.com/wengpengfei/mysterious#readme",
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "electron": "^5.0.8",
+    "file-loader": "^4.1.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "node-sass": "^4.12.0",
+    "portfinder": "^1.0.21",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.0.7",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
+    "webpackbar": "^3.2.0"
+  }
+}
